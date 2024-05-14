@@ -42,6 +42,7 @@ vendor.bluetooth.soc=cherokee
 
 # Camera
 ro.miui.notch=1
+vendor.camera.aux.packagelist=com.android.camera,com.android.camera2,org.codeaurora.snapcam
 
 # CNE
 persist.vendor.cne.feature=1
