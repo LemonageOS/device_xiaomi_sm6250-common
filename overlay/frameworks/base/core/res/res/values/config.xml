@@ -679,4 +679,14 @@
         <!-- B y-intercept --> <item>-0.349361641294833436</item>
     </string-array>
 
+     <!-- The list of package IDs that are allowed to use aux cameras.
+         NOTE: If this list is empty then all apps will be able to use aux cameras. -->
+    <string-array name="config_cameraAuxPackageAllowList" translatable="false">
+        <item>com.android.camera</item>
+        <item>com.android.camera2</item>
+        <item>com.google.android.GoogleCameraEng</item>
+        <item>org.codeaurora.snapcam</item>
+        <item>org.lineageos.aperture</item>
+    </string-array>
+
 </resources>
