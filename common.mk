@@ -228,6 +228,9 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor
 
+# MIUI camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Notch Cutout
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
