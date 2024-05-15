@@ -190,6 +190,9 @@ persist.vendor.sensors.odl.adsp=true
 persist.vendor.sensors.support_direct_channel=false
 persist.vendor.sensors.allow_non_default_discovery=true
 
+# Volume steps
+ro.config.vc_call_vol_steps=10
+
 # WFD
 persist.sys.wfd.virtual=0
 
